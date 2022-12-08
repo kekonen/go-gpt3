@@ -59,7 +59,7 @@ type CompletionRequest struct {
 	// Whether to stream back results or not. Don't set this value in the request yourself
 	// as it will be overriden depending on if you use CompletionStream or Completion methods.
 	Stream bool `json:"stream,omitempty"`
-	Model string `json:"model"`
+	Model string `json:"model"` 
 }
 
 // EditsRequest is a request for the edits API
